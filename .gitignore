@@ -1,4 +1,4 @@
 node_modules/
 .env
-.mp3
-.mp4
+*.mp3
+*.mp4
