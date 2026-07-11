@@ -1,0 +1,26 @@
+[
+    {
+        "id": "test-season-2023---example-game-1",
+        "name": "#1 created 2023-11-23",
+        "description": "First test game",
+        "note": ""
+    },
+    {
+        "id": "example-season-1---2019-02-25",
+        "name": "#7936, aired 2019-02-25",
+        "description": "Team Ken vs. Team Austin vs. Team Julia",
+        "note": "2019 All-Star Games match 2, game 1, Jeopardy! Round only."
+    },
+    {
+        "id": "example-season-1---2019-02-26",
+        "name": "#7937, aired 2019-02-26",
+        "description": "Team Ken vs. Team Austin vs. Team Julia",
+        "note": "2019 All-Star Games match 2, continuation of game 1."
+    },
+    {
+        "id": "example-season-1---2019-02-27",
+        "name": "#7938, aired 2019-02-27",
+        "description": "Team Ken vs. Team Austin vs. Team Julia",
+        "note": "2019 All-Star Games match 2, game 2."
+    }
+]
