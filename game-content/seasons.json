@@ -1,8 +1,14 @@
 [
 	{
-		"id": "test-season-2023",
-		"name": "Test Season 2023",
+		"id": "final-fantasy",
+		"name": "Final Fantasy Jeopardy",
 		"description": "Just an example season to show how this works",
 		"note": "1 game"
-	}
+	},
+    {
+        "id": "example-season-1",
+        "name": "Example Season",
+        "description": "Sample Season",
+        "note": "1 game"
+    }
 ]

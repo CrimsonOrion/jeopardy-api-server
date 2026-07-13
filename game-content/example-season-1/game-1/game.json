@@ -1,0 +1,473 @@
+{
+    "id": "example-season-1---game-1",
+    "game_title": "#1 Example Game",
+    "game_comments": "Example Game",
+    "game_complete": true,
+     "category_J_1": {
+        "category_name": "HEROES",
+        "category_comments": "",
+        "clue_count": 5
+    },
+    "category_J_2": {
+        "category_name": "HELLO WORLD",
+        "category_comments": "",
+        "clue_count": 5
+    },
+    "category_J_3": {
+        "category_name": "ABBREVIATIONS",
+        "category_comments": "",
+        "clue_count": 5
+    },
+    "category_J_4": {
+        "category_name": "HTTP",
+        "category_comments": "",
+        "clue_count": 5
+    },
+    "category_J_5": {
+        "category_name": "PEdfdRL",
+        "category_comments": "A category for brave ones",
+        "clue_count": 5
+    },
+    "category_J_6": {
+        "category_name": "THEMES",
+        "category_comments": "",
+        "clue_count": 5
+    },
+    "clue_J_1_1": {
+        "id": "20190319111",
+        "clue_html": "",
+        "clue_text": "",
+        "correct_response": "Batman",
+        "media": [
+            "./media/img/game-1-j-1-1.png"
+        ]
+    },
+    "clue_J_2_1": {
+        "id": "20190319121",
+        "clue_html": "document.write('Hello, World!');",
+        "clue_text": "document.write('Hello, World!');",
+        "correct_response": "JavaScript"
+    },
+    "clue_J_3_1": {
+        "id": "20190319131",
+        "clue_html": "WTF",
+        "clue_text": "WTF",
+        "correct_response": "What The Fuck"
+    },
+    "clue_J_4_1": {
+        "id": "20190319141",
+        "clue_html": "404",
+        "clue_text": "404",
+        "correct_response": "File not found"
+    },
+    "clue_J_5_1": {
+        "id": "20190319151",
+        "clue_html": "$@",
+        "clue_text": "$@",
+        "correct_response": "the last-raised exception"
+    },
+    "clue_J_6_1": {
+        "id": "20190319161",
+        "clue_html": "",
+        "clue_text": "",
+        "correct_response": "Tetris",
+        "audio": "./media/audio/game-1-j-6-1.mp3"
+    },
+    "clue_J_1_2": {
+        "id": "20190319112",
+        "clue_html": "",
+        "clue_text": "",
+        "correct_response": "Superman",
+        "media": [
+            "./media/img/game-1-j-1-2.png"
+        ]
+    },
+    "clue_J_2_2": {
+        "id": "20190319122",
+        "clue_html": "puts 'Hello, World!'",
+        "clue_text": "puts 'Hello, World!'",
+        "correct_response": "Ruby or TCL"
+    },
+    "clue_J_3_2": {
+        "id": "20190319132",
+        "clue_html": "FTW",
+        "clue_text": "FTW",
+        "correct_response": "For The Win"
+    },
+    "clue_J_4_2": {
+        "id": "20190319142",
+        "clue_html": "301",
+        "clue_text": "301",
+        "correct_response": "Redirect - Moved Permanently"
+    },
+    "clue_J_5_2": {
+        "id": "20190319152",
+        "clue_html": "$_",
+        "clue_text": "$_",
+        "correct_response": "the stealth variable, always used and never seen"
+    },
+    "clue_J_6_2": {
+        "id": "20190319162",
+        "clue_html": "",
+        "clue_text": "",
+        "correct_response": "Super Mario World",
+        "audio": "./media/audio/game-1-j-6-2.mp3"
+    },
+    "clue_J_1_3": {
+        "id": "20190319113",
+        "clue_html": "",
+        "clue_text": "",
+        "correct_response": "Wonder Woman",
+        "media": [
+            "./media/img/game-1-j-1-3.jpg"
+        ]
+    },
+    "clue_J_2_3": {
+        "id": "20190319123",
+        "clue_html": "CAN HAS STDIO?<br />VISIBLE &quot;Hello world!&quot;",
+        "clue_text": "CAN HAS STDIO? VISIBLE \"Hello world!\"",
+        "correct_response": "LOLCODE"
+    },
+    "clue_J_3_3": {
+        "id": "20190319133",
+        "clue_html": "EOF",
+        "clue_text": "EOF",
+        "correct_response": "End Of File"
+    },
+    "clue_J_4_3": {
+        "id": "20190319143",
+        "clue_html": "500",
+        "clue_text": "500",
+        "correct_response": "Internal Server Error"
+    },
+    "clue_J_5_3": {
+        "id": "20190319153",
+        "clue_html": "$}",
+        "clue_text": "$}",
+        "correct_response": "nothing at all, oddly enough!"
+    },
+    "clue_J_6_3": {
+        "id": "20190319163",
+        "clue_html": "",
+        "clue_text": "",
+        "correct_response": "Pac Man (Arcade)",
+        "audio": "./media/audio/game-1-j-6-3.mp3"
+    },
+    "clue_J_1_4": {
+        "id": "20190319114",
+        "clue_html": "",
+        "clue_text": "",
+        "correct_response": "Green Lantern",
+        "media": [
+            "./media/img/game-1-j-1-4.jpg"
+        ]
+    },
+    "clue_J_2_4": {
+        "id": "20190319124",
+        "clue_html": "DISPLAY 'HELLO, WORLD!'",
+        "clue_text": "DISPLAY 'HELLO, WORLD!'",
+        "correct_response": "COBOL"
+    },
+    "clue_J_3_4": {
+        "id": "20190319134",
+        "clue_html": "ROFL",
+        "clue_text": "ROFL",
+        "correct_response": "Rolling On the Floor Laughing"
+    },
+    "clue_J_4_4": {
+        "id": "20190319144",
+        "clue_html": "418",
+        "daily_double": true,
+        "clue_text": "418",
+        "correct_response": "Teapot"
+    },
+    "clue_J_5_4": {
+        "id": "20190319154",
+        "clue_html": "%!˸(MISSING)˸",
+        "clue_text": "%!˸(MISSING)˸",
+        "correct_response": "the symbol table"
+    },
+    "clue_J_6_4": {
+        "id": "20190319164",
+        "clue_html": "",
+        "clue_text": "",
+        "correct_response": "Crash Bandicoot",
+        "audio": "./media/audio/game-1-j-6-4.mp3"
+    },
+    "clue_J_1_5": {
+        "id": "20190319115",
+        "clue_html": "",
+        "clue_text": "",
+        "correct_response": "Shazam or Captain Marvel",
+        "media": [
+            "./media/img/game-1-j-1-5.png"
+        ]
+    },
+    "clue_J_2_5": {
+        "id": "20190319125",
+        "clue_html": "h",
+        "clue_text": "h",
+        "correct_response": "Hello"
+    },
+    "clue_J_3_5": {
+        "id": "20190319135",
+        "clue_html": "PEBCAC",
+        "clue_text": "PEBCAC",
+        "correct_response": "Problem Exists Between Chair And Computer"
+    },
+    "clue_J_4_5": {
+        "id": "20190319145",
+        "clue_html": "420",
+        "clue_text": "420",
+        "correct_response": "Enhance Your Calm"
+    },
+    "clue_J_5_5": {
+        "id": "20190319155",
+        "clue_html": "$#",
+        "clue_text": "$#",
+        "correct_response": "not a comment!"
+    },
+    "clue_J_6_5": {
+        "id": "20190319165",
+        "clue_html": "",
+        "clue_text": "",
+        "correct_response": "Valve Theme (Half-Life / Counter Strike)",
+        "audio": "./media/audio/game-1-j-6-5.mp3"
+    },
+	"category_DJ_1": {
+        "category_name": "A LONG, LONG TIME AGO",
+        "category_comments": "",
+        "clue_count": 5
+    },
+    "category_DJ_2": {
+        "category_name": "ART & ARTISTS",
+        "category_comments": "",
+        "clue_count": 5
+    },
+    "category_DJ_3": {
+        "category_name": "AFRICAN-AMERICAN ACTRESSES",
+        "category_comments": "",
+        "clue_count": 5
+    },
+    "category_DJ_4": {
+        "category_name": "INTERNATIONAL DISPUTES",
+        "category_comments": "",
+        "clue_count": 5
+    },
+    "category_DJ_5": {
+        "category_name": "DATES",
+        "category_comments": "",
+        "clue_count": 5
+    },
+    "category_DJ_6": {
+        "category_name": "CROSSWORD CLUES \"V\"",
+        "category_comments": "",
+        "clue_count": 5
+    },
+    "clue_DJ_1_1": {
+        "id": "360226",
+        "clue_html": "This always frozen subsoil started forming around the time of Earth&apos;s first glaciation, 2 billion-plus years ago",
+        "clue_text": "This always frozen subsoil started forming around the time of Earth's first glaciation, 2 billion-plus years ago",
+        "correct_response": "permafrost"
+    },
+    "clue_DJ_2_1": {
+        "id": "360231",
+        "clue_html": "A first century B.C. writer said of sculptor Praxiteles that he imbued this material with the passions of the soul",
+        "clue_text": "A first century B.C. writer said of sculptor Praxiteles that he imbued this material with the passions of the soul",
+        "correct_response": "marble"
+    },
+    "clue_DJ_3_1": {
+        "id": "360236",
+        "clue_html": "<a href=\"./media/img/game-1-dj-3-1.jpg\" target=\"_blank\">She</a>&apos;s played a Desperate Housewife &amp; the scheming Wilhemina on &quot;Ugly Betty&quot;",
+        "clue_text": "She's played a Desperate Housewife & the scheming Wilhemina on \"Ugly Betty\"",
+        "correct_response": "(Vanessa) Williams",
+        "media": [
+            "./media/img/game-1-dj-3-1.jpg"
+        ]
+    },
+    "clue_DJ_4_1": {
+        "id": "360241",
+        "clue_html": "The 1993 Cherbourg dispute was between Britain &amp; France over fishing rights in &amp; around this island group",
+        "clue_text": "The 1993 Cherbourg dispute was between Britain & France over fishing rights in & around this island group",
+        "correct_response": "the Channel Islands"
+    },
+    "clue_DJ_5_1": {
+        "id": "360246",
+        "clue_html": "1918 date when WWI combat officially ceased",
+        "clue_text": "1918 date when WWI combat officially ceased",
+        "correct_response": "November 11"
+    },
+    "clue_DJ_6_1": {
+        "id": "360251",
+        "clue_html": "Part of a bride&apos;s ensemble<br>(4)",
+        "clue_text": "Part of a bride's ensemble(4)",
+        "correct_response": "her veil"
+    },
+    "clue_DJ_1_2": {
+        "id": "360227",
+        "clue_html": "Erosion by glaciers created the lakes of these mountains, including Lake Garda &amp; Lake Lucerne",
+        "clue_text": "Erosion by glaciers created the lakes of these mountains, including Lake Garda & Lake Lucerne",
+        "correct_response": "the Alps"
+    },
+    "clue_DJ_2_2": {
+        "id": "360232",
+        "clue_html": "Last name of the family that includes 3 generations of artists--illustrator N.C., Andrew &amp; Jamie",
+        "clue_text": "Last name of the family that includes 3 generations of artists--illustrator N.C., Andrew & Jamie",
+        "correct_response": "Wyeth"
+    },
+    "clue_DJ_3_2": {
+        "id": "360237",
+        "clue_html": "Jennifer Hudson, Beyonce &amp; Anika Noni Rose are the singing trio in this film adaptation of a Broadway show",
+        "clue_text": "Jennifer Hudson, Beyonce & Anika Noni Rose are the singing trio in this film adaptation of a Broadway show",
+        "correct_response": "Dreamgirls"
+    },
+    "clue_DJ_4_2": {
+        "id": "360242",
+        "daily_double": true,
+        "clue_html": "The self-proclaimed Saharan Arab Democratic Republic disputes the territory of Western Sahara with this nation",
+        "clue_text": "The self-proclaimed Saharan Arab Democratic Republic disputes the territory of Western Sahara with this nation",
+        "correct_response": "Morocco"
+    },
+    "clue_DJ_5_2": {
+        "id": "360247",
+        "clue_html": "2018 date on which <a href=\"./media/img/game-1-dj-5-2.png\" target=\"_blank\">Mark Hamill</a>, shamrock &amp; all, was the guest of honor at Dublin&apos;s big parade",
+        "clue_text": "2018 date on which Mark Hamill, shamrock & all, was the guest of honor at Dublin's big parade",
+        "correct_response": "March 17th",
+        "media": [
+           "./media/img/game-1-dj-5-2.png"
+        ]
+    },
+    "clue_DJ_6_2": {
+        "id": "360252",
+        "clue_html": "The heart, lungs, liver, kidneys, etc.<br>(7)",
+        "clue_text": "The heart, lungs, liver, kidneys, etc.(7)",
+        "correct_response": "viscera"
+    },
+    "clue_DJ_1_3": {
+        "id": "360228",
+        "triple_stumper": true,
+        "clue_html": "Don&apos;t call Ayla in &quot;The Clan of the Cave Bear&quot; a Neanderthal--she&apos;s this kind of human that emerged later, around 40,000 B.C.",
+        "clue_text": "Don't call Ayla in \"The Clan of the Cave Bear\" a Neanderthal--she's this kind of human that emerged later, around 40,000 B.C.",
+        "correct_response": "a Cro Magnon"
+    },
+    "clue_DJ_2_3": {
+        "id": "360233",
+        "clue_html": "He worked with Giorgione on frescos in 1508, then took over as Venice&apos;s greatest 1-named painter",
+        "clue_text": "He worked with Giorgione on frescos in 1508, then took over as Venice's greatest 1-named painter",
+        "correct_response": "Titian"
+    },
+    "clue_DJ_3_3": {
+        "id": "360238",
+        "clue_html": "The mom of TV&apos;s Huxtable family, in 2004 <a href=\"./media/img/game-1-dj-3-3.jpg\" target=\"_blank\">she</a> became the first black actress to win the Tony for a leading role in a play",
+        "clue_text": "The mom of TV's Huxtable family, in 2004 she became the first black actress to win the Tony for a leading role in a play",
+        "correct_response": "Phylicia Rashad",
+        "media": [
+            "./media/img/game-1-dj-3-3.jpg"
+        ]
+    },
+    "clue_DJ_4_3": {
+        "id": "360243",
+        "clue_html": "The Abyssinia crisis of 1935-36 was a conflict between these 2 nations, one in Africa &amp; one in Europe",
+        "clue_text": "The Abyssinia crisis of 1935-36 was a conflict between these 2 nations, one in Africa & one in Europe",
+        "correct_response": "Italy and Ethiopia"
+    },
+    "clue_DJ_5_3": {
+        "id": "360248",
+        "clue_html": "Until it was moved up to January 20, this was the official presidential inauguration date",
+        "clue_text": "Until it was moved up to January 20, this was the official presidential inauguration date",
+        "correct_response": "March 4th"
+    },
+    "clue_DJ_6_3": {
+        "id": "360253",
+        "clue_html": "Ear-splitting World Cup noisemaker<br>(8)",
+        "clue_text": "Ear-splitting World Cup noisemaker(8)",
+        "correct_response": "a vuvuzela"
+    },
+    "clue_DJ_1_4": {
+        "id": "360229",
+        "clue_html": "Pangea, one of these, formed around 300 million &amp; broke up around 200 million years ago",
+        "clue_text": "Pangea, one of these, formed around 300 million & broke up around 200 million years ago",
+        "correct_response": "a supercontinent"
+    },
+    "clue_DJ_2_4": {
+        "id": "360234",
+        "clue_html": "Picasso saw himself &amp; this painter as the Wright Brothers of Cubism &amp; even called him &quot;Wilbur&quot;",
+        "clue_text": "Picasso saw himself & this painter as the Wright Brothers of Cubism & even called him \"Wilbur\"",
+        "correct_response": "Braque"
+    },
+    "clue_DJ_3_4": {
+        "id": "360239",
+        "clue_html": "Maidie Norman, the maid who got offed by Bette Davis in this 1962 film, rewrote her lines so they wouldn&apos;t sound so stereotypical",
+        "clue_text": "Maidie Norman, the maid who got offed by Bette Davis in this 1962 film, rewrote her lines so they wouldn't sound so stereotypical",
+        "correct_response": "What Ever Happened to Baby Jane?"
+    },
+    "clue_DJ_4_4": {
+        "id": "360244",
+        "clue_html": "A 2012 Japan Times editorial accused China of engaging in this force-based &quot;diplomacy&quot; named for a type of warship",
+        "clue_text": "A 2012 Japan Times editorial accused China of engaging in this force-based \"diplomacy\" named for a type of warship",
+        "correct_response": "gunboat"
+    },
+    "clue_DJ_5_4": {
+        "id": "360249",
+        "clue_html": "1926 date on which Houdini died",
+        "clue_text": "1926 date on which Houdini died",
+        "correct_response": "October 31st"
+    },
+    "clue_DJ_6_4": {
+        "id": "360254",
+        "clue_html": "The left-hand page of a book or manuscript<br>(5)",
+        "clue_text": "The left-hand page of a book or manuscript(5)",
+        "correct_response": "the verso"
+    },
+    "clue_DJ_1_5": {
+        "id": "360230",
+        "clue_html": "This dinosaur of 100 million+ years ago got its name because its teeth resembled those of a lizard that&apos;s still around",
+        "clue_text": "This dinosaur of 100 million+ years ago got its name because its teeth resembled those of a lizard that's still around",
+        "correct_response": "an iguanodon"
+    },
+    "clue_DJ_2_5": {
+        "id": "360235",
+        "daily_double": true,
+        "clue_html": "In 1504 Durer tried to show perfect human forms in this pair, each holding a tree branch",
+        "clue_text": "In 1504 Durer tried to show perfect human forms in this pair, each holding a tree branch",
+        "correct_response": "Adam and Eve"
+    },
+    "clue_DJ_3_5": {
+        "id": "360240",
+        "clue_html": "Awarded an honorary Oscar in 2018, <a href=\"./media/img/game-1-dj-3-5.png\" target=\"_blank\">she</a> has a 6-decade acting career that includes &quot;Roots&quot; &amp; &quot;The Help&quot;",
+        "clue_text": "Awarded an honorary Oscar in 2018, she has a 6-decade acting career that includes \"Roots\" & \"The Help\"",
+        "correct_response": "Cicely Tyson",
+        "media": [
+            "./media/img/game-1-dj-3-5.png"
+        ]
+    },
+    "clue_DJ_4_5": {
+        "id": "360245",
+        "clue_html": "Falklands foes Argentina &amp; the U.K. also bicker over the South these Islands, an old name for far-off Hawaii",
+        "clue_text": "Falklands foes Argentina & the U.K. also bicker over the South these Islands, an old name for far-off Hawaii",
+        "correct_response": "the South Sandwich Islands"
+    },
+    "clue_DJ_5_5": {
+        "id": "360250",
+        "triple_stumper": true,
+        "clue_html": "The Dominion of Canada was proclaimed on this date in 1867",
+        "clue_text": "The Dominion of Canada was proclaimed on this date in 1867",
+        "correct_response": "July 1st"
+    },
+    "clue_DJ_6_5": {
+        "id": "360255",
+        "clue_html": "An early bike or trike<br>(10)",
+        "clue_text": "An early bike or trike(10)",
+        "correct_response": "a velocipede"
+    },
+    "category_FJ_1": {
+        "category_name": "HACKER MOVIES",
+        "category_comments": ""
+    },
+    "clue_FJ": {
+        "clue_html": "",
+        "clue_text": "The name of the movie show here",
+        "correct_response": "007 - Goldeneye",
+        "video": "./media/video/game-1-fj.mp4"
+    }
+}
