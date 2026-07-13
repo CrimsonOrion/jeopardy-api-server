@@ -13,15 +13,11 @@ app.listen(PORT, (err) => {
     if (err) {
         return console.error(err);
     }
-    return console.log(`server is listening on port: `, PORT);
+    return console.log(`Jeopardy content server listening on port:`, PORT);
 });
 
-app.get("/status", (req, res) => {
-    const status = {
-        "Status": "Running"
-    };
-
-    res.send(status);
+app.get('/status', (req, res) => {
+    res.json({ Status: 'Running' });
 });
 
 app.get("/game-content/seasons", (req, res) => {
@@ -38,12 +34,12 @@ app.get(`/game-content/seasons/:id`, (req, res) => {
 });
 
 app.get(`/game-content/games/:id`, (req, res) => {
-    var seasonGameId = req.params["id"].replace("---", "/");
-    var fileData = fs.readFileSync("./game-content/" + seasonGameId + "/game.json");
-    var jsonData = JSON.parse(fileData);
+    const seasonGameId = req.params.id.replace('---', '/');
+    const fileData = fs.readFileSync('./game-content/' + seasonGameId + '/game.json');
+    const jsonData = JSON.parse(fileData);
 
-    var baseUrl = req.protocol + '://' + req.get('host') + '/game-content/' + seasonGameId + '/';
-    var mediaKeys = ['media', 'audio', 'video'];
+    const baseUrl = req.protocol + '://' + req.get('host') + '/game-content/' + seasonGameId + '/';
+    const mediaKeys = ['media', 'audio', 'video'];
 
     function resolveUrl(value) {
         if (typeof value === 'string' && !/^https?:\/\//i.test(value)) {
