@@ -4,16 +4,12 @@
   "description": "API Game Server for Jeopardy!",
   "main": "app.js",
   "scripts": {
-    "test": "jest"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
     "dotenv": "^17.4.2",
     "express": "^4.18.2"
-  },
-  "devDependencies": {
-    "jest": "^30.4.2",
-    "supertest": "^7.2.2"
   }
 }
