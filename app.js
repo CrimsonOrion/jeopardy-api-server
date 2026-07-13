@@ -4,17 +4,10 @@ const express = require('express');
 const app = express();
 const fs = require('fs');
 const path = require('path');
+const { resolveMediaUrls } = require('./lib/resolveMediaUrls');
 const PORT = process.env.PORT || 3001;
 app.use(express.json());
 app.use('/game-content', express.static(path.join(__dirname, 'game-content')));
-
-// Set the listen port
-app.listen(PORT, (err) => {
-    if (err) {
-        return console.error(err);
-    }
-    return console.log(`Jeopardy content server listening on port:`, PORT);
-});
 
 app.get('/status', (req, res) => {
     res.json({ Status: 'Running' });
@@ -39,27 +32,17 @@ app.get(`/game-content/games/:id`, (req, res) => {
     const jsonData = JSON.parse(fileData);
 
     const baseUrl = req.protocol + '://' + req.get('host') + '/game-content/' + seasonGameId + '/';
-    const mediaKeys = ['media', 'audio', 'video'];
 
-    function resolveUrl(value) {
-        if (typeof value === 'string' && !/^https?:\/\//i.test(value)) {
-            return baseUrl + value.replace(/^\.\//, '');
-        }
-        return value;
-    }
-
-    Object.keys(jsonData).forEach(function (key) {
-        var clue = jsonData[key];
-        if (clue && typeof clue === 'object') {
-            mediaKeys.forEach(function (mediaKey) {
-                if (mediaKey in clue) {
-                    clue[mediaKey] = Array.isArray(clue[mediaKey])
-                        ? clue[mediaKey].map(resolveUrl)
-                        : resolveUrl(clue[mediaKey]);
-                }
-            });
-        }
-    });
-
-    res.json(jsonData);
+    res.json(resolveMediaUrls(jsonData, baseUrl));
 });
+
+if (require.main === module) {
+    app.listen(PORT, (err) => {
+        if (err) {
+            return console.error(err);
+        }
+        return console.log(`Jeopardy content server listening on port:`, PORT);
+    });
+}
+
+module.exports = app;
